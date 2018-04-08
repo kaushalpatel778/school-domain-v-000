@@ -1,7 +1,5 @@
 class School
 
-  attr_reader :name
-
   def initialize (name)
     @name = name
     @roster = {}
@@ -12,6 +10,7 @@ class School
   def grade (grade)
     @roster[grade]
   end
+
   def add_student(name, grade)
       if @roster[grade] != nil
         @roster[grade] << name
