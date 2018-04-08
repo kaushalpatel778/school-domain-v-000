@@ -7,7 +7,7 @@ class School
   def roster
     @roster
   end
-  def grade (grade)
+  def grade(grade)
     @roster[grade]
   end
 
